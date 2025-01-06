@@ -16,7 +16,7 @@ const HomeSection = () => {
               <span className="font-bold text-red-500 flex flex-col relative">
                 <span className="text-xs xl:text-lg tracking-tighter opacity-80 absolute lg:-bottom-3 xl:-bottom-6 left-0">
                   <span className="opacity-75">a.k.a</span> Sickstem
-                  Informasi'24
+                  Informasi&apos;24
                 </span>
                 Rame
               </span>

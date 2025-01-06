@@ -9,11 +9,10 @@ const NAME = "VisuallyHidden";
 
 type VisuallyHiddenElement = React.ElementRef<typeof Primitive.span>;
 type PrimitiveSpanProps = React.ComponentPropsWithoutRef<typeof Primitive.span>;
-interface VisuallyHiddenProps extends PrimitiveSpanProps {}
 
 const VisuallyHidden = React.forwardRef<
   VisuallyHiddenElement,
-  VisuallyHiddenProps
+  PrimitiveSpanProps
 >((props, forwardedRef) => {
   return (
     <Primitive.span
@@ -48,4 +47,4 @@ export {
   //
   Root,
 };
-export type { VisuallyHiddenProps };
+export type { PrimitiveSpanProps as VisuallyHiddenProps };
