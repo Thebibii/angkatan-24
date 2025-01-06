@@ -6,7 +6,7 @@ import { Poppins } from "@next/font/google";
 import Navbar from "@/components/section/Navbar";
 import StickyCursor from "@/components/ui/sticky-cursor";
 import Particles from "@/components/ui/particles";
-import FooterSection from "@/components/section/home/footer";
+// import FooterSection from "@/components/section/home/footer";
 
 export const metadata: Metadata = {
   title: "Sickstem Informasi",

@@ -1,6 +1,5 @@
 import { ProjectCard } from "@/components/project-card";
 import BlurFade from "@/components/ui/blur-fade";
-import { SafariDemo } from "@/components/ui/project/safari-demo";
 import { projectList } from "@/constant";
 import React from "react";
 

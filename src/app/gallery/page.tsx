@@ -90,15 +90,16 @@ export default function MasonryGallery() {
             {itemData.map((item, index) => (
               <div key={index} className="mb-4 break-inside-avoid">
                 <div className="bg-white shadow-lg rounded overflow-hidden">
-                  <a data-fancybox="gallery" href={item.img}>
+                  <Link data-fancybox="gallery" href={item.img}>
                     <Image
+                      loading="lazy"
                       src={item.img}
                       width={500}
                       height={500}
                       alt={item.title}
                       className="w-full h-auto object-cover"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

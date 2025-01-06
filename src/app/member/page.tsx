@@ -1,5 +1,6 @@
 import BlurFade from "@/components/ui/blur-fade";
 import { memberList } from "@/constant";
+import Image from "next/image";
 import React from "react";
 
 const Member = () => {
@@ -13,7 +14,10 @@ const Member = () => {
                 className="relative overflow-hidden w-fit rounded-2xl shadow-lg group"
                 key={idx}
               >
-                <img
+                <Image
+                  loading="lazy"
+                  width="500 "
+                  height="500"
                   src={`${item.src}.jpg`}
                   alt={item.nama}
                   className="h-96 w-full object-cover" // fixed height (48) and object-cover for consistent sizing

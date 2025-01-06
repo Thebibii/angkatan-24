@@ -1,7 +1,6 @@
 import React from "react";
 import ShimmerButton from "../../ui/shimmer-button";
 import ImgHero from "../../ui/home/img-hero";
-import TypingAnimation from "@/components/ui/typing-animation";
 
 const HomeSection = () => {
   return (

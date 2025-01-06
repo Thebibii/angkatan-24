@@ -1,5 +1,4 @@
 import ShimmerButton from "@/components/ui/shimmer-button";
-import { ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -41,7 +40,6 @@ const About = () => {
             >
               <span className="inline-flex items-center whitespace-pre-wrap text-center text-xs font-medium leading-none tracking-tight text-primary dark:from-white dark:to-slate-900/10 lg:text-xs xl:text-base">
                 Anggota Kelas
-                {/* <ChevronRightIcon className="size-4 p-0" /> */}
               </span>
             </ShimmerButton>
           </div>
