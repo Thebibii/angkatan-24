@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`antialiased ${poppins.className} overflow-x-hidden h-full w-full`}
+        className={`antialiased ${poppins.variable} overflow-x-hidden h-full w-full`}
       >
         <ThemeProvider
           attribute="class"
