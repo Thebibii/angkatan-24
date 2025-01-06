@@ -52,7 +52,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        poppins: ["var(--poppins-font)"],
+        poppins: ["var(--poppins)"],
       },
       borderRadius: {
         lg: "var(--radius)",
