@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import Navbar from "@/components/section/Navbar";
 import StickyCursor from "@/components/ui/sticky-cursor";
 import Particles from "@/components/ui/particles";
